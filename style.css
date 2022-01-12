@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+}
+
+#header-links {
+}
+
+#header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.header {
+    display: flex;
+    background-color:rgb(255, 243, 133);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 12px;
+    padding-left: 18px;
+}
+
+.first {
+    display: flex;
+    padding: 36px;
+    padding-top: 64px;
+    padding-bottom: 14px;
+    margin: 50px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 164px;
+    margin-top: 80px;
+
+}
+
+#firstText {
+    margin-right: 16px;
+    height: 250px;
+    width: 500px;
+    max-width: 500px;
+    max-height: 250px;
+}
+
+
+#firstText h2 {
+    padding: 10px;
+}
+
+#firstText p {
+    padding:10px;
+}
+
+#firstText button {
+    margin:10px;
+}
+
+#catpic {
+    height: 250px;
+    width: 500px;
+    max-width: 500px;
+    max-height: 250px;
+    object-fit: cover;    
+    object-position: 110% 60%;
+    margin-left: 16px;
+    border: 2px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.second {
+    justify-content: center;
+    align-items: center;
+}
+
+#second-title {
+    background-color:rgb(255, 243, 133);
+    text-align: center;
+    padding: 46px;
+}
+
+#cat-sections {
+    display: flex;
+    background-color:rgb(255, 243, 133);
+    text-align: center;
+    justify-content: center;
+    gap: 28px;
+    padding-bottom: 68px;
+    padding-top: 12px;
+}
+
+.card {
+    padding: 18px;
+}
+
+.card p {
+    padding: 12px;
+    width: 150px;
+}
+
+.cat-pictures {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#quote {
+    padding: 100px 180px;
+    align-items: center;
+}
+
+#quote h4 {
+    text-align: right;
+    padding-top: 18px;
+    font-size: 120%;
+}
+
+#quote p {
+    font-size: 150%
+}
+
+.footer {
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+h6 {
+    color: cornsilk;
+}
+
+div * {
+    margin: 0;
+    padding: 0;
+}
+
+.fourth {
+    background-color: rgb(231, 231, 231);
+    padding: 120px;
+}
+
+#box {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    border-radius: 8px;
+}
+
+#box h5 {
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+#info-button button {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#info-button {
+    margin-right: 40px;
+    margin-top: 4px;
+}
+
