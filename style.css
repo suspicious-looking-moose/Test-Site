@@ -1,23 +1,9 @@
 body {
-    margin: 0;
+    background-color: rgb(243, 243, 243);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
-    background-color: beige;
-}
-
-* {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#logo {
-}
-
-#header-links {
-}
-
-#header-links ul {
-    display: flex;
-    list-style-type: none;
-    gap: 18px;
+    margin: 0;
+    color: rgb(59, 59, 59);
 }
 
 .header {
@@ -25,74 +11,86 @@ body {
     background-color:rgb(255, 243, 133);
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 12px;
-    padding-left: 18px;
+    padding: 1% 14%;
+    
+}
+
+#header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
 }
 
 .first {
+    background-color:rgb(255, 243, 133);
     display: flex;
-    padding: 36px;
-    padding-top: 64px;
-    padding-bottom: 14px;
-    margin: 50px;
-    height: 200px;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 164px;
-    margin-top: 80px;
-
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 100px;
 }
 
 #firstText {
-    margin-right: 16px;
     height: 250px;
     width: 500px;
-    max-width: 500px;
-    max-height: 250px;
+    margin-right: 15px;
 }
 
-
 #firstText h2 {
-    padding: 10px;
+    font-size: 200%;
 }
 
 #firstText p {
-    padding:10px;
+    padding-top: 18px;
+    padding-bottom: 24px;
+    font-size: 100%;
+    line-height: 1.4;
 }
 
 #firstText button {
-    margin:10px;
+    padding: 6px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 243, 133);
+    border-radius: 12px;
+}
+
+
+#firstImage {
+    margin-left: 15px;
+    border: 2px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    border-radius: 5px;
+    height: 250px;
+    width: 500px;
 }
 
 #catpic {
     height: 250px;
     width: 500px;
-    max-width: 500px;
-    max-height: 250px;
-    object-fit: cover;    
-    object-position: 110% 60%;
-    margin-left: 16px;
-    border: 2px;
-    border-color: rgb(194, 194, 194);
-    border-style: solid;
-    border-radius: 5px;
+    object-position: 100% ;
+    
 }
+
 
 .second {
     justify-content: center;
     align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 40px;
 }
 
 #second-title {
-    background-color:rgb(255, 243, 133);
     text-align: center;
     padding: 46px;
+    padding-top: 60px;
+}
+h3 {
+    font-size: 150%;
 }
 
 #cat-sections {
     display: flex;
-    background-color:rgb(255, 243, 133);
     text-align: center;
     justify-content: center;
     gap: 28px;
@@ -119,19 +117,75 @@ body {
     border-radius: 5px;
 }
 
-#quote {
-    padding: 100px 180px;
+
+
+
+
+.third {
+    background-color:rgb(255, 243, 133);
+    height: 400px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+#quote {
+    width: 1000px;
+    padding: 10px;
 }
 
 #quote h4 {
     text-align: right;
     padding-top: 18px;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 #quote p {
-    font-size: 150%
+    font-size: 180%;
+    font-style: italic;
+}
+
+
+
+
+div * {
+    margin: 0;
+    padding: 0;
+}
+
+.fourth {
+    background-color: rgb(231, 231, 231);
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    background-color:rgb(255, 243, 133);
+    border-radius: 8px;
+    width: 1000px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#box h5 {
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+#info-button button {
+    padding: 6px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 243, 133);
+    border-radius: 12px;
+}
+
+#info-button {
+    margin-right: 40px;
+    align-self: center;
+    justify-content: center;
 }
 
 .footer {
@@ -148,39 +202,6 @@ body {
 }
 
 h6 {
-    color: cornsilk;
+    color:rgb(252, 247, 204);
+    font-size: 120%;
 }
-
-div * {
-    margin: 0;
-    padding: 0;
-}
-
-.fourth {
-    background-color: rgb(231, 231, 231);
-    padding: 120px;
-}
-
-#box {
-    padding: 18px;
-    display: flex;
-    justify-content: space-between;
-    background-color: cornsilk;
-    border-radius: 8px;
-}
-
-#box h5 {
-    font-size: 16px;
-    padding-bottom: 4px;
-}
-
-#info-button button {
-    padding: 8px;
-    border-radius: 6px;
-}
-
-#info-button {
-    margin-right: 40px;
-    margin-top: 4px;
-}
-
